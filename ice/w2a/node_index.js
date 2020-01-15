@@ -1,3 +1,6 @@
+console.log("Hello Moto!");
+
+var x = 100;
 function scopeDemo() {
     console.log(x)
     let a = 3, b = 4, c = 5;
@@ -8,4 +11,7 @@ function scopeDemo() {
     if(true) {
         var x = 0;
     }
+    return a;
 }
+
+console.log(scopeDemo() + 10);
