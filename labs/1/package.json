@@ -1,0 +1,23 @@
+{
+  "name": "matthewmckenzie_json_package",
+  "version": "1.0.0",
+  "description": "package for dig4639 class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MojoDaHacker/dig4639-mobile-dev.git"
+  },
+  "keywords": [
+    "dig4639",
+    "mobibledev"
+  ],
+  "author": "Matthew McKenzie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MojoDaHacker/dig4639-mobile-dev/issues"
+  },
+  "homepage": "https://github.com/MojoDaHacker/dig4639-mobile-dev#readme"
+}
