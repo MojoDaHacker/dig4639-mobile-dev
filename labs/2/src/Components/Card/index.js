@@ -1,17 +1,32 @@
+import "./index.css";
+
 class Card {
     constructor(props) {
         this.props = props;
-        this.element = document.createElement("div");
-        this.element.innerText = "What a time to be alive!";
+        this.element = document.createElement("button");
+        this.element.innerText = this.props.question.value;
 
-        this.element.className = "task";
-        }
+        this.element.className = "card";
+
+        this.element.onclick = switchFace();
     }
 
-
-
+    
     render() {
-
-        import card from "./index.css";
+        return this.element;
+        
     }
 }
+
+function switchFace() {
+    switch (this.props) {
+        case value:
+            
+            break;
+    
+        default: console.log("Hello!");
+            break;
+    }
+}
+
+export default Card;

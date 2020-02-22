@@ -4,11 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "watch": "webpack --watch"
   },
-  "author": "",
+  "author": "Matthew McKenzie",
   "license": "ISC",
   "dependencies": {
     "css-loader": "^3.4.2",
