@@ -1,0 +1,24 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 1em;
+    cursor: pointer;
+    position: relative;
+  }
+  
+.toolTipText{
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  visibility: hidden;
+}
+
+.card:hover .toolTipText {
+  visibility: visible;
+}
