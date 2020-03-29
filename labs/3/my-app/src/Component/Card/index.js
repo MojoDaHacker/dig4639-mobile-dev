@@ -8,7 +8,6 @@ class Card extends React.Component{
                 <div>{this.props.content}</div>
             </div>
         )
-        
     }
 }
 
