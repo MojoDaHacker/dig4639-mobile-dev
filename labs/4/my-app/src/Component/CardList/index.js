@@ -23,5 +23,5 @@ class CardList extends React.Component{
         ))
     }
 }
-
+//bamm
 export default CardList;
