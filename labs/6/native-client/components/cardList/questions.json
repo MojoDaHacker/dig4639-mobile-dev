@@ -1,0 +1,40 @@
+{
+    "questions": [
+        {
+            "title": "Question One",
+            "content": "What does npm abbreviate to?",
+            "answers": ["Never Pack Milk", "Nobody Passes Math",
+                 "Node Package Manager", "Newest Package Mode"],
+            "correctAns": "Node Package Manager"
+            
+        },
+        {
+            "title": "Question Two",
+            "content": "What function is mostly used to search and use API's?",
+            "answers": ["get.theGodDamnAPI()", "API.search()",
+                 "userAPI()", "window.fetch()"],
+            "correctAns": "window.fetch()"
+        },
+        {
+            "title": "Question Three",
+            "content": "What git command is used to track a file?",
+            "answers": ["git add", "git track",
+                 "git remote add", "git commit"],
+            "correctAns": "git add"
+        },
+        {
+            "title": "Question Four",
+            "content": "What does JSON abbreviate to?",
+            "answers": ["Just Stay ONline", "Jessica Parker On Node",
+                 "JavaScript Object Notation", "Jumbo Script On Night"],
+            "correctAns": "JavaScript Object Notation"
+        },
+        {
+            "title": "Question Five",
+            "content": "What tag do you use to display information in Native React?",
+            "answers": ["<Show>", "<Div>",
+                 "<display>", "<View>"],
+            "correctAns": "<View>"
+        }
+    ]
+}
