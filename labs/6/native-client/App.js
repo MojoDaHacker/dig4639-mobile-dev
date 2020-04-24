@@ -3,10 +3,16 @@ import { StyleSheet, Text, View } from 'react-native';
 import CardList from './components/cardList'
 
 export default class App extends React.Component {
+  constructor(props){
+    super(props)
+    this.state ={
+      questionNum: 0
+    };
+  }
   render(){
     return (
       <View style={styles.container}>
-        <CardList />
+        <CardList id={this.state.questionNum}/>
       </View>
     );
   }

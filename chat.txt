@@ -1,0 +1,39 @@
+Hey,
+
+You should have a request to share a terminal.
+
+I dont see it
+
+In the live share tab, there should be an option to right cilck 
+the shared terminal and share it. The one that says "node (Read-only)"
+
+I right clicked it and it only say focuse on terminal
+
+Ok, one sec.
+
+Create a new terminal, and I'll request access
+Just Terminal > New Terminal or the plus next to it.
+
+I clicked terminal > New Terminal 
+
+It made a new Terminal
+
+Let me rejoin then.
+
+Only one terminal is showing up for me, did you create it in this window?
+
+Let me try again.
+
+Here's a 
+
+It's just creating zsh terminals, I can make a new liveshare and set terminal to write
+cause right now it o
+nly 
+O
+
+OR I can help via Zoom screen share, but that would be worth trying. 
+
+Yea we can do a zoom call
+
+
+https://ucf.zoom.us/j/5173138026

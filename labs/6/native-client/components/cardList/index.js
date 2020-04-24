@@ -10,19 +10,37 @@ export default class CardList extends React.Component{
             cards:questions.questions.map((v,i) => {
                 v.id = i
                 return v
-            })
+            }),
+            questionNum: this.props.id
         }
     }
-    remCard(id){
-        let cards = this.state.cards.filter((v) => v.id !== id)
-        this.setState({cards:cards})
+    chCard(ansSelect, correctAns){
+        console.log("test")
+        var grade = []
+        console.log(ansSelect)
+
+        grade[this.state.questionNum] = (ansSelect == correctAns) ? true : false;
+        
+        if (grade.length == 5) {
+            grade.forEach(element => {
+                if (element == true) {
+                    var score = 0 ;
+                    score = score + 25
+                    console.log(score)
+                }
+            });
+        }
+        this.setState({questionNum:this.state.questionNum + 1})
     }
     render(){
         return ( 
-            this.state.cards.map((v,i) => 
-            <Card key ={v.id} title ={v.title} content = {v.content}
-            ans = {v.answers} correct = {v.correctAnswers} />
-        ))
+            this.state.cards.map((v,i) => {
+                if (this.state.questionNum == i) {
+                    return (<Card key ={v.id} title ={v.title} content = {v.content}
+                    ans ={v.answers} correct ={v.correctAnswers} chCard= {() => this.chCard()} />)
+                }
+            })
+        )
     }
 }
 
